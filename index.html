@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="braden-logo.png" />
+    <title>Braden's Portfolio</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header id="main-header">
+        <div id="main-container" class="row no-gutters">
+          <div class="col-lg-7 col-md-5">
+            <div class="d-flex flex-column">
+              <div class="p-1 p-md-5">
+                <div
+                  class="d-flex flex-column justify-content-between align-items-center"
+                >
+                  <h1 class="display-4 py-md-3">braden linick</h1>
+                  <div
+                    class="d-flex flex-grow-1 justify-content-between justify-content-center pb-2"
+                  >
+                    <div class="px-4">
+                      <a
+                        target="_blank"
+                        href="https://www.linkedin.com/in/bradenlinick/"
+                        class="text-primary"
+                      >
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    </div>
+                    <div class="px-4">
+                      <a
+                        target="_blank"
+                        href="https://www.youtube.com/channel/UCZGO8FG7DKLQwmcLZGkuWBQ"
+                        class="text-danger"
+                      >
+                        <i class="fab fa-youtube"></i>
+                      </a>
+                    </div>
+                    <div class="px-4">
+                      <a
+                        target="_blank"
+                        href="https://www.instagram.com/bradenlinick/"
+                        class="text-danger"
+                      >
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                    <div class="px-4">
+                      <a
+                        target="_blank"
+                        href="https://github.com/BradenLinick"
+                        class="text-dark"
+                      >
+                        <i class="fab fa-github"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                id="jobs-tab"
+                class="p-4 p-lg-5 bg-dark text-white text-center"
+              >
+                Full Stack Web Developer, Designer, Copyeditor, Videographer,
+                Musician.
+              </div>
+
+              <div id="for-lg-and-xs">
+                <div
+                  class="d-flex flex-row text-white align-items-stretch text-center"
+                >
+                  <div
+                    id="about-tab"
+                    class="port-item p-4"
+                    data-toggle="collapse"
+                    data-target="#about"
+                  >
+                    <i class="fas fa-user-astronaut fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">About Me</span>
+                  </div>
+                  <div
+                    id="experience-tab"
+                    class="port-item p-4"
+                    data-toggle="collapse"
+                    data-target="#experience"
+                  >
+                    <i class="fa fa-book fa-2x d-block text-dark"></i>
+                    <span class="d-none d-sm-block text-dark">Experience</span>
+                  </div>
+                  <div
+                    id="work-tab"
+                    class="port-item p-4"
+                    data-toggle="collapse"
+                    data-target="#work"
+                  >
+                    <i class="fas fa-chart-line fa-2x d-block"></i>
+                    <span class="d-none d-sm-block">Work</span>
+                  </div>
+                  <div
+                    id="contact-tab"
+                    class="port-item p-4"
+                    data-toggle="collapse"
+                    data-target="#contact"
+                  >
+                    <i class="fas fa-mobile-alt fa-2x d-block text-dark"></i>
+                    <span class="d-none d-sm-block text-dark">Contact</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-7">
+            <img src="img/Braden.jpg" alt="Braden Linick" id="photo" />
+          </div>
+        </div>
+
+        <!-- FOR SM & MD SCREENS -->
+        <div id="for-sm-and-md">
+          <div
+            class="d-flex flex-row text-white align-items-stretch text-center"
+          >
+            <div
+              id="about-tab"
+              class="port-item p-4"
+              data-toggle="collapse"
+              data-target="#about"
+            >
+              <i class="fas fa-user-astronaut fa-2x d-block"></i>
+              <span class="d-none d-sm-block">About Me</span>
+            </div>
+            <div
+              id="experience-tab"
+              class="port-item p-4"
+              data-toggle="collapse"
+              data-target="#experience"
+            >
+              <i class="fa fa-book fa-2x d-block text-dark"></i>
+              <span class="d-none d-sm-block text-dark">Experience</span>
+            </div>
+            <div
+              id="work-tab"
+              class="port-item p-4"
+              data-toggle="collapse"
+              data-target="#work"
+            >
+              <i class="fas fa-chart-line fa-2x d-block"></i>
+              <span class="d-none d-sm-block">Work</span>
+            </div>
+            <div
+              id="contact-tab"
+              class="port-item p-4"
+              data-toggle="collapse"
+              data-target="#contact"
+            >
+              <i class="fas fa-mobile-alt fa-2x d-block text-dark"></i>
+              <span class="d-none d-sm-block text-dark">Contact</span>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- ABOUT -->
+      <div id="about" class="collapse show">
+        <div id="about-banner" class="card card-body py-5">
+          <h2><span class="sub-head">A little about myself</span></h2>
+          <p class="text-white lead">
+            Hello world. My name's Braden. I'm an American full stack web
+            developer. I like to build projects from scratch and prefer working
+            with teams over working solo. I love keeping up to date with the
+            newest technologies. I work best with music and a few cups of
+            coffee. I'm always open to hearing about new oppurtunities so be
+            sure to get in touch!
+          </p>
+        </div>
+
+        <div class="card card-body py-5">
+          <h3>My Skills</h3>
+          <p>My skills include but are not limited to the following:</p>
+          <hr />
+          <h4>HTML 5</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width:100%"></div>
+          </div>
+          <h4>CSS 3</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width:100%"></div>
+          </div>
+          <h4>JavaScript</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width:90%"></div>
+          </div>
+          <h4>Vue.js</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width:80%"></div>
+          </div>
+          <h4>React.js</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width:80%"></div>
+          </div>
+          <h4>PHP</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width:70%"></div>
+          </div>
+          <h4>Node.js</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width:70%"></div>
+          </div>
+          <h4>MySQL</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width:75%"></div>
+          </div>
+          <h4>MongoDB</h4>
+          <div class="progress mb-3">
+            <div class="progress-bar" style="width:75%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EXPERIENCE -->
+      <div id="experience" class="collapse">
+        <div id="experience-banner" class="card card-body py-5">
+          <h2><span class="sub-head">My experience</span></h2>
+          <p class="lead">
+            Always learning. Always growing.
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <i class="fa fa-leaf" aria-hidden="true"></i>
+          </p>
+        </div>
+
+        <div class="card card-body py-5">
+          <div id="cards" class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Got It!</h4>
+                <p class="card-text">
+                  Worked as a front end developer for an auction/social media
+                  site for trading card auctions.
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: Front End Developer
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Phone: +39 (329) 929-0518
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Email: francescodelturco@gmail.com
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: March 2019 - Present</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Freelance</h4>
+                <p class="card-text">
+                  Using sites like UpWork and Fiver, along with word of mouth,
+                  I've done a number of freelance jobs which I still continue to
+                  do.
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: Full Stack Developer
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Email: Blinick@alumni.nmu.edu
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: 2017 - Present</h6>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Cogniom</h4>
+                <p class="card-text">
+                  Worked as a Vue.js developer working on the
+                  <a href="https://www.cogniom.com" target="_blank">TANDM</a>
+                  project, which tracks patient data throughout a number of
+                  hospitals on Australia's east coast.
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Position: Full Stack Developer
+                </p>
+                <p class="p-2 mb-3 bg-dark text-white">
+                  Email: Robert.Buehrig@cogniom.com
+                </p>
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: September 2019 - Present</h6>
+              </div>
+            </div>
+          </div>
+          <h3 class="py-4">My certificates:</h3>
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Coding Bootcamp Praha</h4>
+                <p class="card-text">
+                  Attended a full-time immersive bootcamp based on
+                  JavaScript/PHP/MySQL.
+                </p>
+                <img
+                  src="./img/Bootcamp_Certificate.png"
+                  alt="My Certificate"
+                  id="certificate"
+                />
+              </div>
+              <div class="card-footer">
+                <h6 class="text-muted">Dates: Sept. 2018 - Nov. 2018</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- WORK -->
+      <div id="work" class="collapse">
+        <div id="work-banner" class="card card-body py-5">
+          <h2><span class="sub-head">My work</span></h2>
+          <p class="lead text-white">
+            Let's get to work! But first, let's get coffee.
+            <i class="fa fa-coffee text-dark" aria-hidden="true"></i>
+          </p>
+        </div>
+
+        <div class="card card-body py-5">
+
+          <div class="row">
+            <div class="col-md-6 pt-4">
+              <a target="_blank" href="https://coinspace-crypto.herokuapp.com">
+                <img src="/img/coinspace-thumb.png" alt="" class="img-fluid" />
+              </a>
+              <h3>CoinSpace</h3>
+            </div>
+            <div class="col-md-6 pt-4">
+              <a
+                target="_blank"
+                href="https://romantic-albattani-0f5a81.netlify.app"
+              >
+                <img
+                  src="/img/memesmith-thumb.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+              <h3>MemeSmith</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 pt-4">
+              <a target="_blank" href="https://hidden-dawn-76333.herokuapp.com">
+                <img src="/img/apex-thumb.png" alt="" class="img-fluid" />
+              </a>
+              <h3>Apex-Tracker</h3>
+            </div>
+            <div class="col-md-6 pt-4">
+              <a
+                target="_blank"
+                href="https://priceless-leakey-a744c6.netlify.com"
+              >
+                <img src="/img/multi-thumb.png" alt="" class="img-fluid" />
+              </a>
+              <h3>Multilium</h3>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 pt-4">
+              <a target="_blank" href="https://clever-knuth-1f5713.netlify.com">
+                <img src="/img/adhesive-thumb.png" alt="" class="img-fluid" />
+              </a>
+              <h3>Adhesive R&D</h3>
+            </div>
+            <div class="col-md-6 pt-4">
+              <a
+                target="_blank"
+                href="https://nostalgic-northcutt-8efca1.netlify.com"
+              >
+                <img
+                  src="/img/professions-thumb.png"
+                  alt=""
+                  class="img-fluid"
+                />
+              </a>
+              <h3>Professions</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CONTACT -->
+      <div id="contact" class="collapse">
+        <div id="contact-banner" class="card card-body py-5">
+          <h2><span class="sub-head">Contact</span></h2>
+        </div>
+
+        <div class="card card-body py-5">
+          <!-- <form action="send_form_email.php" method="post" name="contactform"> -->
+
+          <div id="form-messages"></div>
+          <form id="ajax-contact" method="post" action="mailer.php">
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text contact-color text-white">
+                    <i class="fas fa-user"></i>
+                  </span>
+                </div>
+                <input
+                  id="name"
+                  type="text"
+                  name="name"
+                  class="form-control bg-dark text-white"
+                  placeholder="Name"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text contact-color text-white">
+                    <i class="fas fa-envelope text-white"></i>
+                  </span>
+                </div>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  class="form-control bg-dark text-white"
+                  placeholder="Email"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text contact-color text-white">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-control bg-dark text-white"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+            </div>
+
+            <input
+              type="submit"
+              value="Submit"
+              class="btn contact-color btn-block btn-lg"
+            />
+          </form>
+        </div>
+      </div>
+
+      <!-- FOOTER -->
+      <footer id="main-footer" class="pt-3 bg-dark text-white">
+        <div class="row">
+          <div
+            class="col-md-12 d-flex flex-column justify-content-center align-items-center"
+            id="footer"
+          >
+            <a
+              href="Braden-resume.pdf"
+              class="btn btn-outline-light"
+              download="Braden-Linick-resume"
+            >
+              <i class="fas fa-cloud"></i> Download Resume
+            </a>
+            <div class="pt-2">
+              <p>
+                Copyright &copy;
+                <span id="year"></span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $('#year').text(new Date().getFullYear());
+
+      $('.port-item').click(function() {
+        $('.collapse').collapse('hide');
+      });
+    </script>
+    <script src="validation.js"></script>
+  </body>
+</html>
